@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Skas</title>
+
+		<link rel="stylesheet" href="assets/css/style.css" />
+
+	</head>
+
+	<body onload="init();">
+		<div class="game">
+			<canvas id="game" width="800" height="600" style="background-color: black;"></canvas>
+		</div>
+		
+
+		<script type="text/javascript" src="assets/js/easeljs-0.7.1.min.js"></script>
+		<script type="text/javascript" src="assets/js/soundjs-0.5.2.min.js"></script>
+		<script type="text/javascript" src="assets/js/mousetrap.min.js"></script>
+		<script type="text/javascript" src="assets/js/zepto.min.js"></script>
+
+		<script type="text/javascript" src="game/main.js"></script>
+		<script type="text/javascript" src="game/input.js"></script>
+				<!-- Ordering of Loading makes a difference -->
+		<script type="text/javascript" src="game/entity.js"></script>
+		<script type="text/javascript" src="game/Robot/arms.js"></script>
+
+
+
+	</body>
+</html>
+
+
+
